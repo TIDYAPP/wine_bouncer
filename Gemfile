@@ -12,7 +12,7 @@ gem 'sqlite3', ENV['rails'].match(/5\.\d\.\d/) ? '~> 1.3.6' : '~> 1.4.2'
 
 # Change in the rack response API broke grape <1.3
 # Version lock rack for those versions of grape
-gem 'rack', '2.0.8' unless ENV['grape'].match(/1\.3\.\d/)
+gem 'rack', '2.0.9' unless ENV['grape'].match(/1\.3\.\d/)
 
 gem 'doorkeeper', ENV['doorkeeper']
 gem 'grape', ENV['grape']

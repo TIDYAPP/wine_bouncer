@@ -21,7 +21,7 @@ Gem::Specification.new do |spec|
 
   spec.add_development_dependency 'railties'
   spec.add_development_dependency 'bundler'
-  spec.add_development_dependency 'rake', '~> 11.0'
+  spec.add_development_dependency 'rake', '>= 11.0'
   spec.add_development_dependency 'rspec-rails', '~> 3.5.0'
   spec.add_development_dependency 'factory_bot', '~> 4.8'
   spec.add_development_dependency 'generator_spec', '~> 0.9.0'
