@@ -2,9 +2,9 @@
 
 source 'https://rubygems.org'
 
-ENV['grape'] ||= '1.3.0'
-ENV['rails'] ||= '~> 6.0.0'
-ENV['doorkeeper'] ||= '5.0.0'
+ENV['grape'] ||= '1.6.2'
+ENV['rails'] ||= '~> 6.1.7'
+ENV['doorkeeper'] ||= '5.6.0'
 
 gem 'rails', ENV['rails']
 # ActiveRecord 5 needs sqlite3 ~> 1.3 and ActiveRectod 6 needs ~>1.4
